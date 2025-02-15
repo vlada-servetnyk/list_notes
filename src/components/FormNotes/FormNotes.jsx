@@ -1,12 +1,13 @@
 import { Formik, Form, Field } from "formik";
-import s from './FormAdd.module.css'
+import s from './FormNotes.module.css'
 
-const FormAdd = ({addNote}) => {
+const FormNotes = ({addNote}) => {
 
 
     const initialValues = {
         name: ''
     }
+    
     const handleSubmit = (values, actions) => {
         const newNote = {
             id: crypto.randomUUID(),
@@ -29,4 +30,4 @@ const FormAdd = ({addNote}) => {
     )
 };
 
-export default FormAdd;
+export default FormNotes;
