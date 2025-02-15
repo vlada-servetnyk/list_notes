@@ -1,0 +1,30 @@
+.form {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.input {
+    padding: 10px;
+    width: 300px;
+    outline: none;
+    border-radius: 10px;
+    transition: border 250ms linear;
+}
+.input:hover, .input:focus {
+    border: solid brown 1px;
+}
+
+.btn_add {
+    padding: 10px;
+    color: black;
+    background-color: rgb(255, 116, 116);
+    font-weight: 700;
+    border-radius: 10px;
+    transition: background-color 250ms linear;
+}
+.btn_add:hover, .btn_add:focus {
+    background-color: brown;
+}
